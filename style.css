@@ -1,9 +1,23 @@
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
 }
 body{
     width: 100%;
+}
+header{
+    width: 100%;
+    background-color: rgb(246, 255, 0);
+    border-radius: 45px;
+    padding: 15px 0px 15px 0px;
+}
+
+header h1{
+    cursor: pointer;
+    display: inline-block;
+}
+header h1:hover{
+    color: rgb(0, 226, 242);
 }
 #img1{
     width: 100%;
@@ -12,27 +26,28 @@ body{
     width: 48%;
     height: 80vh;
     margin: 4px;
+    border-radius: 45px 0px 45px 0px;
 }
 #img1 #i3{
-    width: 97%;
+    width: 50%;
 }
 #f{
-    margin-left: 50px;
-    width: 100%;
     font-size: x-large;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-right: 25px;
 }
 #img2{
     width: 100%;
+    background-color: aqua;
+    padding-top: 5px;
 }
 #img2 img{
-    width: 24%;
+    width: 24.6%;
     height: 60vh;
+    border-radius: 45px 0px 45px 0px;
 }
 #l{
-    width: 100%;
-}
-#l pre{
     font-size: large;
+}
+#l p{
+    margin-left: 5px;
 }
